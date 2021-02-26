@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home_admin">
+
+    <fragment
+        android:id="@+id/nav_home_admin"
+        android:name="com.example.qaunewsalerts.ui.adminhome.AdminHomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/adminfragment_home"/>
+
+<!--        <action-->
+<!--            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"-->
+<!--            app:destination="@id/nav_second" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_second_admin"-->
+<!--        android:name="com.example.qaunewsalerts.ui.adminhome.AdminHomeFragment"-->
+<!--        android:label="@string/home_second"-->
+<!--        tools:layout="@layout/fragment_home">-->
+<!--&lt;!&ndash;        <action&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:destination="@id/nav_home" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <argument&ndash;&gt;-->
+<!--&lt;!&ndash;            android:name="myArg"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:argType="string" />&ndash;&gt;-->
+<!--    </fragment>-->
+
+    <fragment
+        android:id="@+id/nav_categories_admin"
+        android:name="com.example.qaunewsalerts.ui.adminnewscategories.AdminNCFragment"
+        android:label="@string/categories"
+        tools:layout="@layout/fragment_anc" />
+
+    <fragment
+        android:id="@+id/nav_newsRequest_admin"
+        android:name="com.example.qaunewsalerts.ui.adminnewsrequest.AdminNewsRequestFragment"
+        android:label="@string/adminnr"
+        tools:layout="@layout/fragment_adminnewsreq" />
+
+
+</navigation>

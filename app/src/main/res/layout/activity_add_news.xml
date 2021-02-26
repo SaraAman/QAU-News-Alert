@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".activities.AddNews">
+
+    <EditText
+
+        android:id="@+id/request_news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:hint="@string/addnewstitle"
+        android:padding="7dp" />
+    <EditText
+
+        android:id="@+id/add_news_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="7dp"
+        android:background="@drawable/border"
+        android:hint="@string/addnews" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        android:padding="7dp">
+        <Spinner
+
+            android:id="@+id/select_news_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/request_newsimage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image_blue_24dp" />
+
+    <LinearLayout
+        android:id="@+id/upload_take"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/request_upload"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:paddingLeft="4dp"
+            android:text="@string/upload"
+            android:textAlignment="center"
+            android:textColor="@color/colorDark"
+            android:textSize="20dp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/takepic"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:paddingRight="3dp"-->
+<!--            android:text="@string/take"-->
+<!--            android:textAlignment="textEnd"-->
+<!--            android:textColor="@color/colorDark"-->
+<!--            android:textSize="20dp" />-->
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:textAlignment="center">
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/post_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_color"
+        android:text="@string/request"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/post_deptnoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_color"
+        android:text="Add Departmental News"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/classnoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_color"
+        android:text="Add Class Notification"
+        android:textColor="#FFFFFF"
+        />
+</RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>

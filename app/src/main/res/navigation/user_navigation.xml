@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home_user">
+
+    <fragment
+        android:id="@+id/nav_home_user"
+        android:name="com.example.qaunewsalerts.ui.Userhome.UserHomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_userhome"/>
+
+<!--        <action-->
+<!--            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"-->
+<!--            app:destination="@id/nav_home_second" />-->
+
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.qaunewsalerts.ui.Userhome.UserHomeFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_userhome">
+<!--        <action-->
+<!--            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"-->
+<!--            app:destination="@id/nav_home" />-->
+
+<!--        <argument-->
+<!--            android:name="myArg"-->
+<!--            app:argType="string" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_categories_user"
+        android:name="com.example.qaunewsalerts.ui.usernewscategories.UserNewsCategoriesFragment"
+        android:label="@string/categories"
+        tools:layout="@layout/fragment_newscategories" />
+
+    <fragment
+        android:id="@+id/nav_saved_user"
+        android:name="com.example.qaunewsalerts.ui.usersaved.UserSavedFragment"
+        android:label="@string/saved"
+        tools:layout="@layout/fragment_saved" />
+    <fragment
+        android:id="@+id/nav_profile_user"
+        android:name="com.example.qaunewsalerts.ui.userprofile.UserProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_setting_user"
+        android:name="com.example.qaunewsalerts.ui.useresettings.UserSettingsFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

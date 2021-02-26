@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.qaunewsalerts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.AdminAddNews"></activity>
+        <activity android:name=".Adminallnews" />
+        <activity android:name=".NewsRequestDetail" />
+        <activity
+            android:name=".ui.StaffActivity"
+            android:label="@string/title_activity_staff"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Faculty" />
+        <activity
+            android:name=".Staff"
+            android:label="@string/title_activity_staff"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.Departmental_Notifications" />
+        <activity
+            android:name=".ui.staff.StaffActivity"
+            android:label="@string/title_activity_staff"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StaffActivity"
+            android:label="@string/title_activity_staff"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Departments"
+            android:parentActivityName=".activities.MyPush" />
+        <activity android:name=".activities.UpdateNews" />
+        <activity android:name=".activities.PublishNews" />
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditProfile"
+            android:parentActivityName=".ui.userprofile.UserProfileFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.userprofile.UserProfileFragment" />
+        </activity>
+        <activity
+            android:name=".activities.AddNews"
+            android:parentActivityName=".Registeruser" />
+        <activity
+            android:name=".activities.AllNews"
+            android:parentActivityName=".Registeruser" />
+        <activity
+            android:name=".activities.MyPush"
+            android:parentActivityName=".ui.useresettings.UserSettingsFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.useresettings.UserSettingsFragment" />
+        </activity>
+        <activity
+            android:name=".activities.MyNotification"
+            android:parentActivityName=".ui.useresettings.UserSettingsFragment">
+
+            <!--
+                <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.settings.SettingsFragment" />
+            -->
+        </activity>
+        <activity
+            android:name=".Registeruser"
+            android:label="@string/title_activity_registeruser"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.DetailNews"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".activities.Signup"
+            android:parentActivityName=".fragments.AccountFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".fragments.AccountFragment" />
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ChangeLanguage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".activities.MyMessageService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

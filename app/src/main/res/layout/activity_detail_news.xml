@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/detlayout"
+    android:padding="20dp"
+    tools:context=".activities.DetailNews">
+
+    <ImageView
+        android:id="@+id/detailimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/detailheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="	#663366"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:layout_below="@+id/detailimage"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detaildesc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#030303"
+        android:layout_below="@+id/detailheading"
+        android:padding="5dp"
+        android:textSize="15sp" />
+
+</RelativeLayout>
+</ScrollView>

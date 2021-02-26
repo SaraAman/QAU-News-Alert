@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".ui.userprofile.UserProfileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ebedf0"
+        android:padding="5dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/user_profile"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorDark"/>
+
+    <TextView
+
+        android:id="@+id/profilename"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorDark"
+        android:background="@drawable/border"
+        android:padding="7dp" />
+
+    <TextView
+
+        android:id="@+id/profileid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorDark"
+        android:padding="7dp" />
+        <TextView
+
+            android:id="@+id/profiledepart"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:textColor="@color/colorDark"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:padding="7dp"
+            />
+    <TextView
+        android:id="@+id/profileemail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:textColor="@color/colorDark"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp" />
+
+    <TextView
+        android:id="@+id/eidt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorDark"
+        android:text="@string/Edit"
+        android:textSize="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="#ebedf0"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/changepassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorDark"
+            android:text="@string/changepass"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+
+        android:background="#ebedf0"
+        android:padding="5dp">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:padding="7dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:hint="@string/currentpassword" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:padding="7dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:hint="@string/Password" />
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:padding="7dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:hint="@string/reenter" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_color"
+            android:text="@string/confirm"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='QAU News Alerts'
+include ':app'

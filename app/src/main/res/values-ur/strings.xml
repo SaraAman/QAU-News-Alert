@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="app_name">"قائد اعظم یونیورسٹی نیوز الرٹ"</string>-->
+    <string name="app_name">"ASDFG"</string>
+    <string name="welcome">خوش آمدید</string>
+
+    <string name="skip">چھوڑ دو</string>
+
+    <string name="home">ہوم</string>
+    <string name="favorite">پسندیدہ</string>
+    <string name="contact">رابطہ کریں</string>
+    <string name="Account">اکاؤنٹ</string>
+    <string name="Search">خبریں تلاش کریں</string>
+    <string name="Searchbutton">تلاش کریں</string>
+
+
+    <string name="Unimail">ای میل</string>
+    <string name="Uniweb">ویب سائٹ</string>
+    <string name="unicontact">کال کریں</string>
+<!--    <string name="mailaddress">info@qau.edu.pk</string>-->
+<!--    <string name="websiteaddress">http://qau.edu.pk/</string>-->
+
+
+    <string name="loginhead">لاگ ان</string>
+    <string name="Regid">یونیورسٹی رجسٹریشن نمبر</string>
+    <string name="Password">پاس ورڈ</string>
+    <string name="login">لاگ ان کریں</string>
+    <string name="do_not">کاؤنٹ نہیں ہے؟ </string>
+    <string name="Signup">سائن اپ</string>
+
+    <string name="signuphead">سائن اپ فارم </string>
+    <string name="fullname">پورا نام درج کریں </string>
+    <string name="email">ای میل</string>
+    <string name="register">رجسٹر کریں</string>
+    <string name="confirmpassword">پاس ورڈ کی تصدیق کریں</string>
+
+
+    <string name="Recent">حالیہ خبریں</string>
+    <string name="viewall">تمام خبریں دیکھیں</string>
+
+
+    <string name="profile">پروفائل</string>
+    <string name="categories">نیوز کیٹیگریز</string>
+    <string name="saved">محفوظ</string>
+    <string name="adminnr">نیوز کی درخواست دیکھیں</string>
+    <string name="About">کے بارے میں</string>
+    <string name="setting">ترتیبات</string>
+    <string name="addnews">خبر کی تفصیل شامل کریں</string>
+    <string name="addnewstitle">خبر کا عنوان شامل کریں</string>
+    <string name="addnewsdes">خبر کی تفصیل شامل کریں</string>
+
+    <string name="username">نام</string>
+    <string name="Edit">ترمیم</string>
+    <string name="changepass">پاس ورڈ تبدیل کریں</string>
+
+
+    <string name="admission">داخلہ</string>
+    <string name="education">تعلیم</string>
+    <string name="sports">کھیل</string>
+    <string name="art">فن تفریح</string>
+    <string name="transport">ٹرانسپورٹ</string>
+    <string name="department">شعبہ</string>
+
+
+
+    <string name="addetail">داخلہ کی تاریخیں ، میرٹ کی فہرستیں ، انٹری ٹیسٹ کی تاریخیں ، سمسٹر شیڈول ، فیس کا نظام الاوقات</string>
+    <string name="edudetail">سیمینار ، کانفرنسیں ، ورکشاپس</string>
+    <string name="sportsdetail">تمام کھیلوں کا نظام الاوقات</string>
+    <string name="artdetail">سوسائٹی کے واقعات ، قومی واقعات ، موسیقی کے واقعات ، تفریحی میلے</string>
+    <string name="transdetail">یونیورسٹی ٹرانسپورٹ کی تازہ ترین معلومات</string>
+    <string name="deptdetail">نتائج ، تاریخ شیٹ ، اسائنمنٹ / نتائج / لیکچرز ، فیکلٹی میٹنگز</string>
+
+
+    <string name="notification">اطلاعات</string>
+    <string name="managepush">میری اطلاعات</string>
+
+    <string name="notificationthroughmail">ای میل کے ذریعے اطلاع</string>
+
+    <string name="logout">لاگ آوٹ</string>
+    <string name="request">خبر شائع کرنے کی درخواست</string>
+    <string name="adminpublishbtn">خبر شائع کریں</string>
+    <string name="upload">تصویر اپلوڈ کریں</string>
+    <string name="take">تصویر لو</string>
+
+    <string name="newemail">نیا ای میل</string>
+    <string name="confirm">تصدیق کریں</string>
+
+    <string name="currentpassword">موجودہ پاسورڈ</string>
+    <string name="reenter">دوبارہ داخل شدہ پاس ورڈ</string>
+
+    <string name="Admin">ایڈمن</string>
+    <string name="newsRequestAdmin">خبر کی درخواست</string>
+
+    <string-array name="Select_categories">
+        <item>داخلہ</item>
+        <item>تعلیم</item>
+        <item>کھیل</item>
+        <item>فن تفریح</item>
+        <item>ٹرانسپورٹ</item>
+        <item>شعبہ</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/colorPrimary"
+    android:weightSum="100">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="30"
+
+        android:background="@color/colorPrimary"
+        android:src="@drawable/qau"
+
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="@string/welcome"
+        android:layout_weight="10"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimary" />
+    <TextView
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Your Language\nزبان تبدیل کریں\n"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:onClick="Changelag_text"/>
+
+    <TextView
+        android:id="@+id/skip_b"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+
+        android:layout_marginTop="0dp"
+        android:layout_weight="5"
+        android:background="@color/colorPrimary"
+        android:text="@string/skip"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="btn_Skip"
+        />
+
+
+</LinearLayout>
